@@ -65,7 +65,7 @@ var AppView = Backbone.View.extend({
     },
 
     add_movie_to_container: function(movie){
-
+        $('#movies_container').append('<li class="movie_item">' + movie + '</li>');
     },
 
     remove_movie_locations: function(){
@@ -76,7 +76,7 @@ var AppView = Backbone.View.extend({
             markersArray.length = 0;
         }
 
-
+        $('li').remove();
     },
 
     /**************************

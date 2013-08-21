@@ -8,7 +8,7 @@
     <file path="/index.html" changelist="1d466c57-1ad3-4b1e-9a17-255e09b04227" time="1376966646445" ignored="false" />
     <file path="/manage.py" changelist="1d466c57-1ad3-4b1e-9a17-255e09b04227" time="1376965706929" ignored="false" />
     <file path="/app.html" changelist="1d466c57-1ad3-4b1e-9a17-255e09b04227" time="1377078617056" ignored="false" />
-    <file path="/app.js" changelist="1d466c57-1ad3-4b1e-9a17-255e09b04227" time="1377086131085" ignored="false" />
+    <file path="/app.js" changelist="1d466c57-1ad3-4b1e-9a17-255e09b04227" time="1377128480234" ignored="false" />
     <file path="/appv2.js" changelist="1d466c57-1ad3-4b1e-9a17-255e09b04227" time="1376994572027" ignored="false" />
     <file path="/uberstyle.css" changelist="1d466c57-1ad3-4b1e-9a17-255e09b04227" time="1377085811133" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="1989" selection-end="1989" vertical-scroll-proportion="-5.0">
+            <state line="75" column="31" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.6659619">
               <folding />
             </state>
           </provider>
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="43" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.61926603">
+            <state line="30" column="31" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-4.6">
               <folding />
             </state>
           </provider>
@@ -99,9 +99,9 @@
         <option value="$PROJECT_DIR$/static/appv2.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/static/backbone-autocomplete.js" />
-        <option value="$PROJECT_DIR$/templates/app.html" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/static/uberstyle.css" />
+        <option value="$PROJECT_DIR$/templates/app.html" />
         <option value="$PROJECT_DIR$/static/app.js" />
       </list>
     </option>
@@ -462,16 +462,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/app.js">
+    <entry file="file://$PROJECT_DIR$/templates/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="1989" selection-end="1989" vertical-scroll-proportion="-5.0">
+        <state line="30" column="31" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-4.6">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/app.html">
+    <entry file="file://$PROJECT_DIR$/static/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="43" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.61926603">
+        <state line="75" column="31" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.6659619">
           <folding />
         </state>
       </provider>
