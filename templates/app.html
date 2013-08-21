@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Uber Coding Challenge</title>
+    </head>
+
+    <!-- libraries -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='backbone-autocomplete.js') }}"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+    <!-- styling -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='uberstyle.css') }}"/>
+
+    <body>
+        <div id="rapstar">
+
+        <div id="header"><h1><strong class="text-danger">Warning:</strong> for movie nerds only!!</h1></div>
+
+        <div id="controls">
+            <form class="form-inline" action="#" role="form">
+            <div class="ui-widget"><input class="form-control" id="search_input"/><button type="submit" id="search_btn" class="btn btn-primary">Search</button></div>
+                </form><br>
+            <button id="remove_movies_btn" class="btn btn-warning"><i class="icon-remove icon-white"></i>Remove all</button>
+            <div id="movies_container"><ul></ul></div>
+
+        </div>
+        </div>
+        
+        <div id="map-canvas">hi</div>
+        
+		<!-- Backbone code -->
+		<script type="text/javascript" src="../static/app.js"></script>
+        <!-- <script type="text/javascript" src="../static/appv2.js"></script> -->
+	</body>
+</html>

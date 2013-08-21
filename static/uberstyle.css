@@ -1,0 +1,86 @@
+html {height: 100%}
+body {height: 100%; padding: 0;, margin: 0;}
+
+
+#header {
+	position: absolute;
+	color: #333333;
+	margin: 5px;
+	-webkit-font-smoothing: antialiased;
+	background: #fff;
+	padding: 10px 10px 5px 10px;
+
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-ms-border-radius: 0 0 5px 5px;
+	-o-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+
+#controls{
+	position:absolute;
+	background-color: white;
+	padding:15px;
+    right: 2%;
+    top: 10%;
+
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#movies_container ul{
+	list-style-type: none;
+	margin: 5px 0px;
+}
+
+#movies_container li{
+	padding:3px;
+}
+
+#movies_container a {
+
+}
+
+#map-canvas{
+    z-index: -1;
+	height :100%;
+}
+
+/*
+ * AUTOCOMPLETE CSS
+ */
+
+ul.ui-autocomplete{
+    background-color: white!important;
+    list-style: none;
+    opacity: 0.9;
+    padding-left: 5px;
+}
+
+ul.ui-autocomplete > li:hover{
+    color: white;
+    background: #D9230F!important;
+}
+
+.ui-state-focus
+{
+    color: white;
+    background: #D9230F;
+}
+
+#search_input{
+    width:60%;
+}
